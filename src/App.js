@@ -74,6 +74,7 @@ const LogoutButton = styled.button`
   cursor: pointer;
   border: none;
   border-radius: 3px;
+  margin-right: 15px;
 `;
 
 const NotifyButton = styled.button`

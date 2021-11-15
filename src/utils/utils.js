@@ -21,7 +21,7 @@ const notify = async (token) => {
       method: 'post',
       url: '/notify',
       headers: { Authorization: `Bearer ${token}` },
-      params: {
+      data: {
         name: 'Elliot Spaull',
         email: 'elliotspaull@gmail.com',
         repoUrl: 'https://github.com/espaull/meldcx-test',
